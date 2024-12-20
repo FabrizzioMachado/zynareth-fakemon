@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "vite": "^4.0.0",
+    "vue": "^3.5.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "@google/model-viewer": "^3.5.0",
+    "vue-script2": "^2.1.0"
+  }
+}
