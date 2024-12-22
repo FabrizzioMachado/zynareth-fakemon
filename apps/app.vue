@@ -25,15 +25,15 @@
             <template v-slot:default>
                 Zynareth’s elegant form aligns with other Pokémon celebrated for their mythological resonance.
                 Its streamlined physique and vibrant patterns share similarities with 
-                <spanny :text="'Zeraora'" :colorImg="[{color: this.yellow, img: '../imgs/Zynareth/zeraora.png'}]"/>
+                <spanny :text="'Zeraora'" :colorImg="[{color: this.yellow, img: './imgs/Zynareth/zeraora.png'}]"/>
                 highlighting its agility and mastery of electric power. The segmented, blade-like wings resemble to 
-                <spanny :text="'Zygarde’s Complete Form'" :colorImg="[{color: this.darkGreen, img: '../imgs/Zynareth/zygarde.png'}]"/>
+                <spanny :text="'Zygarde’s Complete Form'" :colorImg="[{color: this.darkGreen, img: './imgs/Zynareth/zygarde.png'}]"/>
                 symbolizing balance. Moreover, Zynareth’s sharp claws and fur are admired by 
-                <spanny :text="'Luxrays'" :colorImg="[{color: this.skyBlue, img: '../imgs/Zynareth/Luxray.png'}]"/>, 
+                <spanny :text="'Luxrays'" :colorImg="[{color: this.skyBlue, img: './imgs/Zynareth/Luxray.png'}]"/>, 
                 as it embodies a more powerful version of their traits, which represents primal strength and energy control.
                 <br><br>
                 <spanny :text="'Zynareth doesn’t have an evolution line'" :colorImg="[{color: this.darkGreen}]"/>, 
-                just as <spanny :text="'Thundurus'" :colorImg="[{color: this.purple, img: '../imgs/Zynareth/thundurus.png'}]"/> guardian’s companion.
+                just as <spanny :text="'Thundurus'" :colorImg="[{color: this.purple, img: './imgs/Zynareth/thundurus.png'}]"/> guardian’s companion.
             </template>
         </cardTexted> 
 
